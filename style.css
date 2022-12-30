@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #afc3ed;
+}
+
+
+.posts{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(197, 87, 83);
+    margin-bottom: 30px;
+  }
+  
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bb4545;
+    display: none;
+  }
+  
+  
+  
+  .closeIcon{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+  color: #171717;
+   font-size: 38px;
+   display: none;
+  }
+  
+  .overlay.active{
+    display: block;
+   
+  }
+  
+  .closeIcon.active{
+    display: block;
+  }
